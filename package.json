@@ -1,0 +1,32 @@
+{
+  "name": "@jdhillen/stylelint-config",
+  "version": "0.0.0",
+  "description": "Stylelint & Prettier shared config",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "author": {
+    "name": "J.D. Hillen",
+    "email": "jhillen01@gmail.com",
+    "url": "https://links.jdhillen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdhillen/test-module.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "semantic-release": "^24.2.0"
+  }
+}
