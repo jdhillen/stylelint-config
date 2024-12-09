@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/jdhillen/stylelint-config/compare/v1.0.5...v1.0.6) (2024-12-09)
+
+
+### Bug Fixes
+
+* Added: Vue Rule - no-empty-source:null ([ae43c2c](https://github.com/jdhillen/stylelint-config/commit/ae43c2c4f93ec309ccfd9ad706be370bfa527646))
+
 ## [1.0.5](https://github.com/jdhillen/stylelint-config/compare/v1.0.4...v1.0.5) (2024-12-09)
 
 
