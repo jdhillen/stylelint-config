@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/jdhillen/stylelint-config/compare/v1.0.6...v1.0.7) (2024-12-09)
+
+
+### Bug Fixes
+
+* Seperated sass and vue files in index.js ([fa27e77](https://github.com/jdhillen/stylelint-config/commit/fa27e777112e0dd1b9851e76716453dc7b228464))
+
 ## [1.0.6](https://github.com/jdhillen/stylelint-config/compare/v1.0.5...v1.0.6) (2024-12-09)
 
 
