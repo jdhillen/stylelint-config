@@ -4,7 +4,14 @@
   "description": "Stylelint & Prettier shared config",
   "license": "MIT",
   "type": "module",
-  "main": "index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./prettier": "./src/prettier.js",
+    "./stylelint": "./src/stylelint.js"
+  },
+  "files": [
+    "src"
+  ],
   "author": {
     "name": "J.D. Hillen",
     "email": "jhillen01@gmail.com",
@@ -14,6 +21,12 @@
     "type": "git",
     "url": "git+https://github.com/jdhillen/test-module.git"
   },
+  "keywords": [
+    "prettier",
+    "stylelint",
+    "config",
+    "esm"
+  ],
   "engines": {
     "node": ">=20.0.0"
   },
@@ -22,6 +35,13 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "^3.4.2",
+    "stylelint": "^16.11.0"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^36.0.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
