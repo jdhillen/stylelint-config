@@ -12,14 +12,12 @@ export default {
   plugins: [
     'stylelint-scss',
     'stylelint-order',
-    'stylelint-prettier'
   ],
   customSyntax: 'postcss-html',
   rules: {
     ...mainRules,
     ...sassRules,
-    ...vueRules,
-    ...prettierRules
+    ...vueRules
   },
   overrides: [
     {
