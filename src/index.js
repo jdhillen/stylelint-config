@@ -25,8 +25,12 @@ export default {
  },
  overrides: [
    {
-     files: ['*.scss', '**/*.scss', '*.vue', '**/*.vue'],
+     files: ['*.scss', '**/*.scss'],
      customSyntax: 'postcss-scss'
+   },
+   {
+    files: ['*.vue', '**/*.vue'],
+    customSyntax: 'postcss-html'
    }
  ],
  ignoreFiles: [
