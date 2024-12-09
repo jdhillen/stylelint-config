@@ -19,7 +19,11 @@ export const mainRules = {
   'length-zero-no-unit': true,
   
   // Property order
-  'order/properties-alphabetical-order': true
+  'order/properties-alphabetical-order': true,
+
+  // Disable comment formatting
+  'comment-whitespace-inside': null,
+  'comment-empty-line-before': null
  };
  
  export default mainRules;
