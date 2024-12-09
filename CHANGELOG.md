@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/jdhillen/stylelint-config/compare/v1.0.7...v1.0.8) (2024-12-09)
+
+
+### Bug Fixes
+
+* Update: SASS rules ([9c4b1ee](https://github.com/jdhillen/stylelint-config/commit/9c4b1eebf3cb3c31f773e76fee7b795aef82b937))
+
 ## [1.0.7](https://github.com/jdhillen/stylelint-config/compare/v1.0.6...v1.0.7) (2024-12-09)
 
 
