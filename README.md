@@ -1,36 +1,32 @@
 // README.md
 # @jdhillen/stylelint-config
 
-JD Hillen's shareable Stylelint configuration.
+JD Hillen's shareable Stylelint configuration for Vue 3 with SASS/SCSS and Prettier support.
 
 ## Installation
 
 ```bash
-npm install --save-dev @jdhillen/stylelint-config stylelint@^16.0.0
+npm install --save-dev @jdhillen/stylelint-config
 ```
 
 ## Usage
 
-Create a `.stylelintrc.js` file in your project root:
+### StyleLint Configuration
+Create a `stylelint.config.js` file in your project root:
 
 ```javascript
-import jdhillenConfig from '@jdhillen/stylelint-config';
+import stylelintConfig from '@jdhillen/stylelint-config';
 
-export default jdhillenConfig;
+export default stylelintConfig;
 ```
 
-Or if you need to extend it:
+### Prettier Configuration
+Create a `prettier.config.js` file in your project root:
 
 ```javascript
-import jdhillenConfig from '@jdhillen/stylelint-config';
+import prettierConfig from '@jdhillen/stylelint-config/prettier';
 
-export default {
-  ...jdhillenConfig,
-  rules: {
-    // Your overrides here
-    'max-nesting-depth': 4
-  }
-};
+export default prettierConfig;
 ```
 
 ### Add to package.json scripts
@@ -38,53 +34,10 @@ export default {
 ```json
 {
   "scripts": {
-    "lint:css": "stylelint \"**/*.css\"",
-    "lint:css:fix": "stylelint \"**/*.css\" --fix"
+    "stylelint": "stylelint \"src/**/*.{css,scss,vue}\"",
+    "stylelint:fix": "stylelint \"src/**/*.{css,scss,vue}\" --fix",
+    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,vue,scss,css,md,json}\"",
+    "prettier:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,vue,scss,css,md,json}\"",
   }
 }
-```
-
-## Features
-
-- Modern CSS syntax
-- Alphabetical property ordering
-- Consistent naming conventions
-- Best practices enforcement
-- Nesting depth control
-- Modern color function notation
-- Import notation standardization
-
-## Rules Overview
-
-### Code Quality
-- Prevents duplicate properties and selectors
-- Disallows empty blocks, comments, and sources
-- Prevents shorthand property overrides
-
-### Modern Syntax
-- Uses modern color function notation
-- Enforces prefix notation for media feature ranges
-- Uses URL notation for imports
-
-### Naming and Structure
-- Enforces camelCase class names
-- Limits nesting depth to 3 levels
-- Limits selector complexity
-
-### Formatting
-- Lowercase hex colors
-- Short hex notation when possible
-- No units for zero values
-- Percentage notation for alpha values
-
-## Note for CommonJS Projects
-
-If you're using this in a CommonJS project, you'll need to use dynamic imports:
-
-```javascript
-// .stylelintrc.cjs
-module.exports = (async () => {
-  const config = await import('@jdhillen/stylelint-config');
-  return config.default;
-})();
 ```
