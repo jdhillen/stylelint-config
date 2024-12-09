@@ -1,15 +1,12 @@
-// src/rules/vue.js
+// =================================================================================================
+// ---- Vue ----
+// =================================================================================================
+
 export const vueRules = {
   'selector-pseudo-class-no-unknown': [
     true,
     {
-      ignorePseudoClasses: ['deep', 'global']
-    }
-  ],
-  'selector-pseudo-element-no-unknown': [
-    true,
-    {
-      ignorePseudoElements: ['v-deep', 'v-global', 'v-slotted']
+      ignorePseudoClasses: ['deep', 'global', 'slotted']
     }
   ]
 };

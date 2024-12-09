@@ -23,8 +23,14 @@
   "keywords": [
     "prettier",
     "stylelint",
+    "stylelint-config",
     "config",
-    "esm"
+    "vue",
+    "sass",
+    "scss",
+    "css",
+    "esm",
+    "jdhillen"
   ],
   "engines": {
     "node": ">=20.0.0"

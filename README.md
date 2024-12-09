@@ -36,8 +36,8 @@ export default prettierConfig;
   "scripts": {
     "stylelint": "stylelint \"src/**/*.{css,scss,vue}\"",
     "stylelint:fix": "stylelint \"src/**/*.{css,scss,vue}\" --fix",
-    "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,vue,scss,css,md,json}\"",
-    "prettier:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx,vue,scss,css,md,json}\"",
+    "prettier": "prettier --check \"src/**/*.{js,jsx,ts,tsx,vue,scss,css,md,json}\"",
+    "prettier:fix": "prettier --write \"src/**/*.{js,jsx,ts,tsx,vue,scss,css,md,json}\"",
   }
 }
 ```
