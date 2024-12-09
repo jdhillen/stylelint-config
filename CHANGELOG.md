@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/jdhillen/stylelint-config/compare/v1.0.0...v1.0.1) (2024-12-09)
+
+
+### Bug Fixes
+
+* Testing a release ([699bbe9](https://github.com/jdhillen/stylelint-config/commit/699bbe91a948c7b6957c4647449653e4ea019f8e))
+
 # 1.0.0 (2024-12-09)
 
 
