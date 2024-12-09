@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/jdhillen/stylelint-config/compare/v1.0.2...v1.0.3) (2024-12-09)
+
+
+### Bug Fixes
+
+* Updated formatting and comments ([cae4fff](https://github.com/jdhillen/stylelint-config/commit/cae4fff08c234642bc8a6845ee668e3ea6b38e30))
+
 ## [1.0.2](https://github.com/jdhillen/stylelint-config/compare/v1.0.1...v1.0.2) (2024-12-09)
 
 
