@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/jdhillen/stylelint-config/compare/v1.0.8...v1.0.9) (2024-12-09)
+
+
+### Bug Fixes
+
+* Update - Removed the conditional spacing of comments ([04f4eeb](https://github.com/jdhillen/stylelint-config/commit/04f4eeb4b431f1c0eca25906bbeb5aae8605c24d))
+
 ## [1.0.8](https://github.com/jdhillen/stylelint-config/compare/v1.0.7...v1.0.8) (2024-12-09)
 
 
