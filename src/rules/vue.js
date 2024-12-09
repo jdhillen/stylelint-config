@@ -3,6 +3,7 @@
 // =================================================================================================
 
 export const vueRules = {
+  'no-empty-source': null,
   'selector-pseudo-class-no-unknown': [
     true,
     {
