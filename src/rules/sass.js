@@ -15,7 +15,12 @@ export const sassRules = {
   'scss/at-function-pattern': '^[a-z][a-zA-Z0-9]+$',
   
   // SASS Comments
-  'scss/double-slash-comment-empty-line-before': 'always',
+  "scss/double-slash-comment-empty-line-before": [
+      "always",
+      {
+        "except": ["first-nested"]
+      }
+    ],
   'scss/double-slash-comment-whitespace-inside': 'always'
 };
 
