@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/jdhillen/stylelint-config/compare/v1.0.3...v1.0.4) (2024-12-09)
+
+
+### Bug Fixes
+
+* Added: Disable comment formatting ([e598cf1](https://github.com/jdhillen/stylelint-config/commit/e598cf1cb5349aae3090f8ed21c0cbd63d598726))
+
 ## [1.0.3](https://github.com/jdhillen/stylelint-config/compare/v1.0.2...v1.0.3) (2024-12-09)
 
 
