@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/jdhillen/stylelint-config/compare/v1.0.4...v1.0.5) (2024-12-09)
+
+
+### Bug Fixes
+
+* Added an exception to the first instance of // comments in sass ([7b889a0](https://github.com/jdhillen/stylelint-config/commit/7b889a0c4bdd238cb602180fb0dae9dfccaf2c20))
+
 ## [1.0.4](https://github.com/jdhillen/stylelint-config/compare/v1.0.3...v1.0.4) (2024-12-09)
 
 
