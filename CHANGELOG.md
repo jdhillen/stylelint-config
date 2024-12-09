@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/jdhillen/stylelint-config/compare/v1.0.1...v1.0.2) (2024-12-09)
+
+
+### Bug Fixes
+
+* Removed stylelint-prettier ([494038e](https://github.com/jdhillen/stylelint-config/commit/494038edcb170ee5e94c371cba6c972cd5efc8b5))
+
 ## [1.0.1](https://github.com/jdhillen/stylelint-config/compare/v1.0.0...v1.0.1) (2024-12-09)
 
 
