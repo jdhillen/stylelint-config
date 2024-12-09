@@ -4,7 +4,14 @@
   "description": "Stylelint & Prettier shared config",
   "license": "MIT",
   "type": "module",
-  "main": "index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./prettier": "./src/prettier.js",
+    "./stylelint": "./src/stylelint.js"
+  },
+  "files": [
+    "src"
+  ],
   "author": {
     "name": "J.D. Hillen",
     "email": "jhillen01@gmail.com",
