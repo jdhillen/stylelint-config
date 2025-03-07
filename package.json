@@ -1,12 +1,15 @@
 {
   "name": "@jdhillen/stylelint-config",
   "version": "0.0.0",
-  "description": "Stylelint & Prettier shared config test",
+  "description": "Stylelint & Prettier configuration for projects",
   "license": "MIT",
   "type": "module",
   "exports": {
     ".": "./src/index.js",
     "./prettier": "./src/rules/prettier.js"
+  },
+  "bin": {
+    "setup-stylelint-config": "./bin/setup-stylelint-config.js"
   },
   "files": [
     "src/**",
@@ -43,7 +46,11 @@
     "prepare": "husky",
     "test": "echo \"No tests specified\"",
     "commit": "cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "stylelint": "stylelint \"**/*.{vue,css,scss}\"",
+    "stylelint:fix": "stylelint \"**/*.{vue,css,scss}\" --fix",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write ."
   },
   "publishConfig": {
     "access": "public"
