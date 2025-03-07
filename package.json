@@ -1,0 +1,75 @@
+{
+  "name": "@jdhillen/stylelint-config",
+  "version": "0.0.0",
+  "description": "Stylelint & Prettier shared config test",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./prettier": "./src/rules/prettier.js"
+  },
+  "files": [
+    "src/**",
+    "bin/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "author": {
+    "name": "J.D. Hillen",
+    "email": "jhillen01@gmail.com",
+    "url": "https://links.jdhillen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdhillen/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "prettier",
+    "prettier-config",
+    "css",
+    "sass",
+    "scss",
+    "BEM",
+    "vue",
+    "markdown",
+    "jdhillen"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "test": "echo \"No tests specified\"",
+    "commit": "cz",
+    "semantic-release": "semantic-release"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "sass": "^1.82.0",
+    "stylelint": "^16.11.0"
+  },
+  "dependencies": {
+    "postcss-html": "^1.8.0",
+    "postcss-markdown": "^1.3.0",
+    "stylelint-config-recess-order": "^6.0.0",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-config-standard-vue": "^1.0.0",
+    "stylelint-scss": "^6.11.1"
+  },
+  "devDependencies": {
+    "@jdhillen/release-config": "^2.0.0",
+    "husky": "^9.1.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
