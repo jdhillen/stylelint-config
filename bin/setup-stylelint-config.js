@@ -72,7 +72,7 @@ async function updatePackageJson() {
     // Stylelint scripts
     if (!packageJson.scripts.stylelint) {
       console.log('📝 Adding stylelint script...');
-      packageJson.scripts.stylelint = 'stylelint "**/*.{vue,css,scss}"';
+      packageJson.scripts.stylelint = 'stylelint "**/*.{vue,css,scss}" --allow-empty-input';
       modified = true;
     } else {
       console.log('ℹ️ Stylelint script already exists');
@@ -80,7 +80,7 @@ async function updatePackageJson() {
 
     if (!packageJson.scripts['stylelint:fix']) {
       console.log('📝 Adding stylelint:fix script...');
-      packageJson.scripts['stylelint:fix'] = 'stylelint "**/*.{vue,css,scss}" --fix';
+      packageJson.scripts['stylelint:fix'] = 'stylelint "**/*.{vue,css,scss}" --fix --allow-empty-input';
       modified = true;
     } else {
       console.log('ℹ️ Stylelint:fix script already exists');

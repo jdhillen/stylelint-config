@@ -96,13 +96,15 @@ Then add the following scripts to your package.json:
 ```json
 {
   "scripts": {
-    "stylelint": "stylelint \"**/*.{vue,css,scss}\"",
-    "stylelint:fix": "stylelint \"**/*.{vue,css,scss}\" --fix",
+    "stylelint": "stylelint \"**/*.{vue,css,scss}\" --allow-empty-input",
+    "stylelint:fix": "stylelint \"**/*.{vue,css,scss}\" --fix --allow-empty-input",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write ."
   }
 }
 ```
+
+> The `--allow-empty-input` flag prevents errors when no matching files are found, which is helpful in CI/CD environments and with Git hooks like Husky.
 
 ### VSCode Integration
 

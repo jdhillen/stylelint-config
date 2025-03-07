@@ -47,8 +47,8 @@
     "test": "echo \"No tests specified\"",
     "commit": "cz",
     "semantic-release": "semantic-release",
-    "stylelint": "stylelint \"**/*.{vue,css,scss}\"",
-    "stylelint:fix": "stylelint \"**/*.{vue,css,scss}\" --fix",
+    "stylelint": "stylelint \"**/*.{vue,css,scss}\" --allow-empty-input",
+    "stylelint:fix": "stylelint \"**/*.{vue,css,scss}\" --fix --allow-empty-input",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write ."
   },
