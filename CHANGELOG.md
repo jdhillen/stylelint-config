@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/jdhillen/stylelint-config/compare/v1.0.0...v2.0.0) (2025-03-07)
+
+
+### Features
+
+* trigger major version bump without code changes ([d080ff8](https://github.com/jdhillen/stylelint-config/commit/d080ff87042fea8ea3882f1d2664c08bfe61d2ae))
+* trigger major version bump without code changes ([5cd31b8](https://github.com/jdhillen/stylelint-config/commit/5cd31b87f6c2ba06d61a6ddab1f8c21dc3bddbb5))
+
+
+### BREAKING CHANGES
+
+* Force version bump to 2.0.0
+* Force version bump to 2.0.0
+
 # 1.0.0 (2025-03-07)
 
 
