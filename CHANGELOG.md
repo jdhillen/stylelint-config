@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/jdhillen/stylelint-config/compare/v2.0.0...v2.0.1) (2025-03-07)
+
+
+### Bug Fixes
+
+* **stylelint:** stylelint no longer errors when it doesn't find any style files ([84bc5bd](https://github.com/jdhillen/stylelint-config/commit/84bc5bd049ae5cddfff9c9c88327a5e29a554087))
+
 # [2.0.0](https://github.com/jdhillen/stylelint-config/compare/v1.0.0...v2.0.0) (2025-03-07)
 
 
