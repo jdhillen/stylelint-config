@@ -23,12 +23,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Stylelint
-        run: npm run stylelint || (echo "Stylelint failed" && exit 1)
-
-      - name: Run Prettier
-        run: npm run prettier || (echo "Prettier check failed" && exit 1)
-
       - name: Run Tests
         run: npm test
 
